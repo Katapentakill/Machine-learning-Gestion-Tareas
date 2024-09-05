@@ -43,7 +43,7 @@ def print_emails():
     """
     Imprime los emails de los usuarios obtenidos de la base de datos.
     """
-    db_path = r"D:\Escritorio\ProyectosAleEstudio\Backend\Nest\task-management\database.sqlite"
+    db_path = r"D:\\Ale\\Recomend System\\Port-backend-nestjs\\database.sqlite"
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
@@ -72,7 +72,7 @@ def main(requiredSkillsNormalized, requiredExpertiseNormalized, descriptionNorma
         descriptionNormalized (str): Descripción de la tarea normalizada.
     """
     # Conectar a la base de datos SQLite
-    db_path = r"D:\Escritorio\ProyectosAleEstudio\Backend\Nest\task-management\database.sqlite"
+    db_path = r"D:\\Ale\\Recomend System\\Port-backend-nestjs\\database.sqlite"
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
